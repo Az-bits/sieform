@@ -1,0 +1,391 @@
+.min-w-25 {
+	min-width: 25px;
+}
+
+.modal .modal-dialog {
+	margin-top: 50px !important;
+}
+
+.swal-footer {
+	text-align: center !important;
+}
+
+.swal-text {
+	color: #e92b2d;
+	font-weight: 600;
+}
+
+@media (max-width: 800px) {
+	.text-right {
+		text-align: center !important;
+	}
+
+	form .form-group {
+		display: flex;
+	}
+
+	[data-target='#exampleModal'] {
+		height: 45px;
+	}
+
+	[type='search'] {
+		width: 25em !important;
+	}
+}
+
+[type='search'] {
+	width: 40em !important;
+	max-width: 100%;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+	max-width: 100%;
+}
+
+@media (max-width: 600px) {
+	[type='search'] {
+		width: 15em !important;
+	}
+
+	.card-header {
+		flex-direction: column;
+	}
+
+	.dataTables_info {
+		white-space: break-spaces !important;
+	}
+}
+
+.modal-lg {
+	max-width: 1000px;
+}
+
+.bmd-form-group [class*=' bmd-label'],
+.bmd-form-group [class^='bmd-label'] {
+	position: relative !important;
+}
+
+.bmd-form-group .form-control,
+.bmd-form-group input::placeholder,
+.bmd-form-group label {
+	line-height: 0;
+}
+
+input[type='time'],
+input[type='datetime-local'],
+input[type='month'],
+input[type='date'] {
+	line-height: 1.1 !important;
+}
+
+.procedure {
+	display: flex;
+	align-items: center;
+}
+
+textarea {
+	border: 1px solid #aaa !important;
+	border-radius: 10px !important;
+}
+
+.spinner-border {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	vertical-align: text-bottom;
+	border: 0.25em solid #fff;
+	border-right-color: transparent;
+	border-radius: 50%;
+	-webkit-animation: spinner-border 0.75s linear infinite;
+	animation: spinner-border 0.75s linear infinite;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	padding: 0;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+@keyframes spinner-border {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.display-load-icon {
+	display: none !important;
+}
+
+.alert {
+	border: 0;
+	/* border-radius: 22px; */
+	position: relative;
+	padding: 7px 15px;
+	line-height: 20px;
+}
+
+.swal2-icon {
+	margin: 20px auto 10px;
+}
+
+/*
+* begin::form styles 
+*/
+.fv-plugins-icon {
+	top: 20px !important;
+}
+
+.fv-plugins-message-container {
+	color: #ff4136;
+}
+
+.fv-plugins-message-container .small {
+	font-weight: 500;
+}
+
+.green {
+	color: #19a974;
+}
+
+.red {
+	color: #ff4136;
+}
+
+/*
+* end::form styles 
+*/
+
+.az-b {
+	height: 26px;
+	width: 85px;
+	border-radius: 15px !important;
+}
+
+.az-b {
+	padding: 5px !important;
+}
+
+.form-group {
+	flex-direction: column;
+	padding-bottom: 1.5rem;
+}
+
+h4,
+h5 {
+	text-transform: uppercase;
+}
+
+.az-r {
+	color: red;
+}
+
+textarea {
+	padding: 10px !important;
+}
+
+.az-btn {
+	height: 1.5rem;
+	display: flex;
+	padding: 0;
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.sidebar .nav li .dropdown-menu a,
+	.sidebar .nav li a {
+		margin-bottom: 10px;
+	}
+}
+
+/* #main {
+	position: absolute;
+	transition: all 2s ease-in-out;
+	-webkit-transition: all 2s ease-in-out; /*Chrome & Safari *
+	-moz-transition: all 2s ease-in-out; /* Firefox *
+	-o-transition: all 2s ease-in-out; /* Opera **
+} */
+.az-text-s {
+	font-size: 0.8rem;
+}
+
+.sidebar-mini .wrapper .sidebar .logo img {
+	width: 4rem !important;
+	height: 4rem !important;
+	transition: 0.2s width ease;
+}
+
+.sidebar-mini .wrapper .sidebar .logo a {
+	display: flex;
+	justify-content: center;
+	/* tan */
+}
+
+.sidebar .logo {
+	justify-content: center;
+	display: flex;
+}
+
+.az-area {
+	display: flex !important;
+	align-items: center;
+}
+
+.az-area .clear {
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	margin-left: 10px;
+	border: none;
+	font-weight: bold;
+	color: #a9a3a3;
+	cursor: pointer;
+	background-color: #d5dfdf;
+	outline: none;
+}
+
+.az-area .clear:hover {
+	color: #ee4040;
+	cursor: pointer;
+	background-color: #a4aaaa;
+}
+
+/* autocomplete styles*/
+
+.autocomplete-suggestions {
+	border: 1px solid #999;
+	background: #fff;
+	overflow: auto;
+	min-width: 310px;
+}
+
+.autocomplete-suggestion {
+	padding: 2px 5px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.autocomplete-selected {
+	background: #f0f0f0;
+}
+
+.autocomplete-suggestions strong {
+	font-weight: normal;
+	color: #3399ff;
+}
+
+.autocomplete-group {
+	padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+	display: block;
+	border-bottom: 1px solid #000;
+}
+
+.az-m-alert {
+	margin: auto -1px;
+}
+
+.az-alert div {
+	font-size: 13px;
+}
+
+.az-alert {
+	display: flex !important;
+	justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+	.az-alert {
+		flex-direction: column;
+	}
+
+	/* .az-alert div {
+		margin-left: 50%;
+	} */
+	.az-alert strong {
+		display: inline-block;
+		padding-right: 1rem;
+		width: 4rem;
+	}
+
+	.pagination > .page-item > .page-link,
+	.pagination > .page-item > span {
+		font-size: 0.5rem;
+	}
+
+	div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+		overflow-x: scroll;
+		display: -webkit-box;
+	}
+
+	.az-add {
+		justify-content: center;
+	}
+
+	.child .child ul li .dtr-data:last-child {
+		display: flex;
+		width: 18em;
+		justify-content: center;
+	}
+}
+
+#addTecnico {
+	padding: 0.40625rem 0.5rem;
+}
+
+.az-checkbox .az-col {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-group .az-size {
+	font-size: 13px;
+}
+
+.az-checkbox .az-col .form-group {
+	margin: 0;
+	padding: 0;
+}
+
+.az-checkbox .az-col label {
+	margin: 0;
+	font-size: 13px;
+}
+
+.az-checkbox .az-col div input {
+	width: 3rem;
+	margin-right: 5px;
+	height: 1.38rem;
+	outline: 1px solid #a5a3a3;
+	border: none;
+}
+
+[name='cable_utp_c6[cantidad]'] {
+	margin-right: 9px !important;
+}
+
+.az-active {
+	background: #f8ddff !important;
+}
+
+.az-mw {
+	max-width: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) {
+	width: 100%;
+}
+@media (max-width: 991px) {
+	.bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) .dropdown-menu.show {
+		width: 100%;
+	}
+}

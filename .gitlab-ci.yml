@@ -1,0 +1,25 @@
+# Define stages
+stages:
+  - build
+  - deploy
+  - test
+
+# Etapa de contruccion si el proyecto contiene dependencias
+building:
+  stage: build
+  script:
+    - echo "Building start..."
+
+# Despliegue desde gitlab del repositorio en el servidor
+deployment:
+  stage: deploy
+  script:
+    - echo "Deploy..."
+    - cd "$ROOT_DIRECTORY"/"$BASE_REPOSITORY"
+    - git pull http://"$ROOT_USER":"$ROOT_PASSWORD"@gitlabsie.upea.bo/"$GROUP"/"$BASE_REPOSITORY".git master
+
+# Etapa de testeo 
+testing:
+  stage: test
+  script:
+    - echo "Finish deployment"
